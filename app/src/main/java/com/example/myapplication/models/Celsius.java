@@ -1,0 +1,1 @@
+package com.example.myapplication.models;public class Celsius  extends Grado{    public Celsius(Double valor, String unidad) {        super(valor, unidad);    }    public  Fahrenheit parse(Celsius c){        return new Fahrenheit(c.getValor()*1.8+32,"F");    }}
